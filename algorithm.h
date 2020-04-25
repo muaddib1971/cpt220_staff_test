@@ -1,3 +1,8 @@
+/******************************************************************************
+ * CPT220 - Study Period 2 - 2020
+ * Startup Code provided by Paul Miller (e70940)
+ * Applicant Name:
+ ******************************************************************************/
 #include "shared.h"
 #ifndef ALGORITHM_H
 #define ALGORITHM_H
