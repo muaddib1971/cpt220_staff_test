@@ -4,7 +4,9 @@
  * Applicant Name:
  ******************************************************************************/
 #include "algorithm.h"
-
+/*******************************************************************************
+ * This file contains your implementation of the algorithm for giving change
+ ******************************************************************************/
 struct falsible_register can_give_change(const cash_register reg,
                                          const change_requests requests) {
     struct falsible_register newreg = {0};

@@ -6,6 +6,9 @@
 #include "shared.h"
 #ifndef ALGORITHM_H
 #define ALGORITHM_H
+/**
+ * The indexes of the cash register array that contain each denomination
+ **/
 enum denom_ind {
     FIVE_CENTS_IND,
     TEN_CENTS_IND,
@@ -17,6 +20,9 @@ enum denom_ind {
     TEN_DOLLAR_IND
 };
 
+/**
+ * the values that each denomination has
+ **/
 enum denom_val {
     FIVE_CENTS_VAL = 5,
     TEN_CENTS_VAL = 10,
@@ -28,6 +34,9 @@ enum denom_val {
     TEN_DOLLAR_VAL = 1000
 };
 
+/**
+ *
+ **/
 struct denomination {
     enum denom_ind index;
     enum denom_val value;
